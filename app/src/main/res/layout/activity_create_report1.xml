@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary30"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Input -->
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Title"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Category Dropdown -->
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:popupBackground="@color/white" />
+
+    <!-- Content Input -->
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Content"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Media Upload Button -->
+
+
+    <!-- Location Tagging Button -->
+
+    <Button
+        android:id="@+id/btnUploadMedia"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/material_dynamic_primary10"
+        android:text="UploadMedia"
+        android:textColor="@android:color/white" />
+
+    <!-- Save Draft Button -->
+
+
+    <!-- Submit Button -->
+
+    <Button
+        android:id="@+id/btnSaveDraft"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/material_dynamic_primary10"
+        android:text="Save Draft"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/material_dynamic_primary10"
+        android:text="submit"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

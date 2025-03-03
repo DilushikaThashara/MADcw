@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral80"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Number of Articles Submitted -->
+    <TextView
+        android:id="@+id/tvArticlesSubmitted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Articles Submitted: 10"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <!-- Average Rating -->
+    <TextView
+        android:id="@+id/tvAverageRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Average Rating: 4.5"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <!-- Approval/Rejection Ratio -->
+    <TextView
+        android:id="@+id/tvApprovalRatio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approval Ratio: 80%"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+</LinearLayout>

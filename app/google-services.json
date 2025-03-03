@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686236966499",
+    "project_id": "news-reporter-app-58bdb",
+    "storage_bucket": "news-reporter-app-58bdb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686236966499:android:41b8fe29e1b552d1202256",
+        "android_client_info": {
+          "package_name": "nibm.hdse.newsreporterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeqJEdfSbRWguhzJT0XAD2Onp92dJeskk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
